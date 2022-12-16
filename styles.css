@@ -1,0 +1,617 @@
+body.Index{
+    background-image:url(Portfolio\ images/book.jpg);
+    height:100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+img.Index{
+    margin-top:0;
+    height:30vw;
+    width:90vw;
+    position:absolute;
+    margin-left:5vw;;
+}
+
+h1.Index{
+    margin-top:0;
+    text-align:center;
+    color:white;
+    font-size:5vw;
+}
+
+p.Index{
+    text-align:center;
+    color:white;
+    margin-top:21vw;
+    border-style:solid;
+    border-color:darkcyan;
+    font-size:x-large;
+    mix-blend-mode: difference;
+}
+
+ul.Index{
+    display:grid;
+    list-style: none;
+    color: white;
+    mix-blend-mode: difference;
+    grid-template-columns: auto auto auto auto;
+    font-size:xx-large;
+    border-style:double;
+
+}
+
+ul.Index>li{
+    border-style:groove;
+}
+
+@keyframes animation{
+    from{top:100px; opacity:0}
+    to{top:0px; background-color:white;}
+}
+
+div.Index{
+    animation-name:animation;
+    position:relative;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    background-color:white;
+    margin-left:4vw;
+    margin-top:25vw;
+    text-align:center;
+    width:90vw;
+}
+
+.vl {
+    border-left: 3px solid green;
+    height: 21vw;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    margin-top:42.4vw;
+  }
+
+  hr.Index{
+      margin-top:7vw;
+  }
+
+  .vl1 {
+    border-left: 3px solid lightblue;
+    height: 15vw;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    margin-top:68vw;
+  }
+
+
+
+  
+
+  .vl:fullscreen{
+    border-left: 3px solid green;
+    height: 21vw;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    margin-top:40vw;
+  }
+
+  a.Index{
+      text-decoration:none;
+      color:darkgray;
+      
+  }
+
+  h1.Contact{
+      text-align:center;
+      font-size:5vw;
+      color:cadetblue;
+  }
+
+  div.Contact{
+      margin-left:25vw;
+      margin-top:5vw;
+      display:grid;
+      grid-template-columns: auto auto;
+      border-style:ridge;
+      max-width: 50vw;
+  }
+
+  div.Contact1{
+      margin-left:2vw;
+      margin-top:4vw;
+      font-size:2vw;
+  }
+
+  div.Contact2{
+    margin-top:4vw;
+    font-size:2vw;
+}
+
+  div.Contact1>input{
+      height:2vw;
+  }
+
+  div.Contact2>input{
+    height:2vw;
+}
+
+div.Contact2{
+  margin-left:-15vw;
+}
+
+div.Contact3{
+    margin-bottom:4vw;
+    margin-top:5vw;
+    margin-left:7vw;
+    font-size:2vw;
+}
+
+div.Contact3>input{
+    display:block;
+    width:35vw;
+    height:20vw;
+
+}
+
+div.Contact3>label{
+    margin-left:13vw;
+}
+
+div.Contact3>label{
+
+    font-size:3vw;
+}
+
+body.Contact{
+    background-color:cornsilk;
+}
+
+
+
+input.Contact{
+    margin-top:5vw;
+    margin-left:35vw;
+    width:30vw;
+    height:5vw;
+    font-size:4vw;
+    
+}
+
+
+
+
+
+
+div.flag-container{
+    position:absolute;
+    margin-left:50vw;
+    margin-top:8vw;
+    transform: translate(-50%,-50%);
+    
+}
+
+div.flag{
+    margin:50px;
+    width:300px;
+    height:200px;
+
+}
+
+.flag-element{
+    position:relative;
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-P1dBTzudZi1g6fzcsgHwm4NofUZAUZXJku9G9rjcseVx5UrNt49ZY5u4pajNhzq5ucw:https://static.wixstatic.com/media/8cf9db_7e32f21e97544c8c9b3d7975c7af871b~mv2.jpeg/v1/crop/x_0,y_0,w_1146,h_472/fill/w_560,h_232,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/logo.jpeg&usqp=CAU");
+    background-size:400px 100%;
+    width:1px;
+    height:120%;
+    display:inline-block;
+    animation: wave 1s ease-in-out infinite alternate;
+
+}
+
+@keyframes wave{
+    0%{
+        top:10%;
+    }
+    100%{
+        top:-10%;
+    }
+}
+
+h1.Glazing{
+    text-align:center;
+    font-size:5vw;
+    color:darkslateblue;
+}
+
+div.Glazing{
+    background-color:lightblue;
+}
+
+div.Glazing1{
+    text-align:center;
+    margin-top:25vw;
+    background-color:burlywood;
+    border-style:ridge;
+    border-width:1vw;
+}
+
+div.Glazing1>h1{
+    text-align:center;
+}
+
+div.Circuit{
+    background-color:cadetblue;
+}
+
+div.Circuit>h1{
+    text-align:center;
+    font-size:6vw;
+    color:burlywood;
+}
+
+div.Circuit>img{
+    display:inline;
+    width:10vw;
+}
+
+img.Circuit{
+    margin-left:77vw;
+}
+
+body.Circuit{
+    background-image:url(https://t4.ftcdn.net/jpg/02/31/52/39/360_F_231523917_ynlZZs4Y3348DJOR843ZrT7fuq0qXy8M.jpg);
+    height:500vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div.Circuit1{
+    margin-top:10vw;
+    text-align:center;
+    border-style:double;
+    border-width:1vw;
+    background-color:darkolivegreen;
+}
+
+div.Circuit1>h1{
+    font-size:5vw;
+    color:gray;
+}
+
+div.Circuit1>img{
+    width:40vw;
+}
+
+p.Circuit{
+    font-size:x-large;
+}
+
+div.Circuit2{
+    text-align:center;
+    margin-top:10vw;
+    background-color:lightsteelblue;
+    border-style:double;
+    border-width:1vw;
+}
+
+div.Circuit2>p{
+    font-size:x-large;
+}
+
+div.Circuit3{
+    margin-top:10vw;
+    text-align:center;
+    border-style:double;
+    border-width:1vw;
+    background-color:blanchedalmond;
+}
+
+div.Circuit3>img{
+    width:35vw;
+    height:30vw;
+}
+
+div.Circuit3>h1{
+    color:chocolate;
+    font-size:4vw;
+}
+
+div.Circuit3>p{
+    font-size:x-large;
+}
+
+html.Circuit,
+   body.Circuit{
+      width:100%;
+      height:100%;
+      padding:0px;
+      margin:0px;
+      }
+
+      *{
+        position:relative;
+      }
+  
+      *:after,*:before{
+        position:absolute;
+        content:'';
+      }
+
+      .container{
+        width:100%;
+        height:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        }
+
+        .bot{
+            width:250px;
+            height:400px;
+            display:flex;
+            align-items:center;
+            flex-direction:column;
+            }
+
+            .bot_head{
+                background:#66e366;
+                width:150px;
+                height:110px;
+                top:10%;
+                border-radius:30px 30px 30px 10px;
+         }
+
+         .bot_head:after{
+            width:40px;
+            height:40px;
+            bottom:-17px;
+            left:5px;
+            background:inherit;
+            clip-path: polygon(48% 100%, 0 0, 100% 0);
+          }
+
+          .left_eye{
+            width:30px;
+            height:30px;
+            background:white;
+            border-radius:50%;
+            top:30px;
+            left:30px;
+            }
+       .right_eye{
+            width:30px;
+            height:30px;
+            background:white;
+            border-radius:50%;
+            top:30px;
+            right:30px;
+        }
+
+        .stomach{
+            width:150px;
+            height:150px;
+            border-radius:50%;
+            top:45%;
+            background:#43bfe6;
+           }
+
+           @keyframes stomach_move{
+            0%,50%,100%{
+               left:15%; /* we can set same style for multiple percentage */
+             }
+            25%{
+              left:-35%;
+             }
+            75%{
+              left:100%;
+             }
+           }
+
+           .stomach{
+            width:150px;
+            height:150px;
+            border-radius:50%;
+            top:45%; 
+            background:#43bfe6;
+            animation: stomach_move 3s ease infinite;
+         }
+
+         @keyframes bot_head_motion{
+            0%,50%,100%{
+              left:25%;
+            }
+            25%{
+             left:-45%;
+             transform:rotate(-20deg)
+            }
+            75%{
+             left:90%;
+             transform:rotate(20deg)
+             }
+         }
+
+         .bot_head{
+            background:#66e366;
+            width:150px;
+            height:110px;
+            top:10%;
+            border-radius:30px 30px 30px 10px;
+            animation: bot_head_motion 3s ease infinite;
+    }
+
+          
+
+img.Glazing{
+    width:30vw;
+    height:25vw;
+}
+
+p.Glazing{
+    font-size:x-large;
+}
+
+img.Glazing1{
+    width:45vw;
+    margin-left:30vw;
+}
+
+p.Glazing1{
+    text-align:center;
+    font-size:x-large;
+}
+
+div.Glazing2{
+    background-color:lightsalmon;
+    margin-top:10vw;
+    border-style:ridge;
+    border-width:1vw;
+}
+
+
+h1.Glazing1{
+    text-align:center;
+    font-size:4vw;
+}
+
+div.Glazing3{
+    margin-top:10vw;
+    background-color:lightgreen;
+    border-style:ridge;
+    border-width:1vw;
+}
+
+h1.Glazing2{
+    text-align:center;
+    font-size:4vw;
+}
+
+img.Glazing2{
+    width:45vw;
+    margin-left:25vw;
+}
+
+p.Glazing2{
+    text-align:center;
+    font-size:x-large;
+}
+
+
+
+body.Hobbies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 200%;
+    background-color: #333;
+  }
+  
+  .circles {
+    width: 60px;
+    height: 20px;
+  }
+  
+  .fractal {
+    margin-top:60vw;
+    margin-right:15vw;
+    width: 60px;
+    height: 20px;
+    background-color: #67B46D;
+    border-radius: 0;
+    display: block;
+    position: relative; 
+    animation-name: spiral;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    will-change: transform;
+  }
+  
+  @keyframes spiral {
+      from {transform: translate3d(0,10%,0) rotate(0deg) scale(0.5);}
+      to {transform: translate3d(0,400%,0) rotate(60deg) scale(1);}
+  }
+
+  div.Hobbies{
+      width:1100000vw;
+      margin-left:60vw;
+      text-align:center;
+      background-color:darkcyan;
+      margin-top:20vw;
+  }
+
+  div.Hobbies>h1{
+      font-size:5vw;
+  }
+
+  
+
+  div.Hobbies1{
+    position: relative;
+    left: -63vw;
+    top: 65vw;
+    width:100vw;
+      text-align:center;
+      background-color:darkgoldenrod;
+  }
+
+  div.Hobies1>h1{
+      font-size:4vw;
+      color:darkgray;
+  }
+
+  div.Hobbies1>img{
+      width:17vw;
+  }
+
+  div.Hobbies2{
+    position: relative;
+    left: -25vw;
+    top: 65vw;
+    width:100vw;
+      text-align:center;
+      background-color:darkgoldenrod;
+  }
+
+  div.Hobies2>h1{
+    font-size:4vw;
+    color:darkgray;
+}
+
+div.Hobbies2>img{
+    width:17vw;
+    height:20vw;
+}
+
+div.Hobbies3{
+    position: relative;
+    left: -70vw;
+    top: 120vw;
+    width:100vw;
+      text-align:center;
+      background-color:darkgoldenrod;
+  }
+
+  div.Hobies3>h1{
+      font-size:4vw;
+      color:darkgray;
+  }
+
+  div.Hobbies3>img{
+      width:20vw;
+  }
+
+  
+
+
